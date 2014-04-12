@@ -56,7 +56,7 @@ in your path, and then tell your package manager to use it:
 ### Remarks
 The default version of the utility compresses and decompresses the data before
 transmission, to avoid delays on slow networks. On fast networks, you may
-use `cudf_remote_proxy_plain`
+use `cudf_remote_proxy_plain` instead.
 
 ### References
 
