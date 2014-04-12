@@ -26,9 +26,9 @@ There are already several efficient CUDF-compatible dependency solvers, most of 
 see for example the following ones, that are based on different solving technologies, and participated
 to the [MISC Competitions](http://www.mancoosi.org/misc "MISC Competitions"):
 
-1.   [`aspcud`](http://sourceforge.net/projects/potassco/files/aspcud/ "Aspcud")
-2.   [`mccs`](http://www.i3s.unice.fr/~cpjm/misc/mccs.html "Mccs")
-3.   [`packup`](http://sat.inesc-id.pt/~mikolas/sw/packup/ "Packup")
+1.   [`aspcud`](http://sourceforge.net/projects/potassco/files/aspcud/ "Aspcud") is based on *Answer Set Programming*
+2.   [`mccs`](http://www.i3s.unice.fr/~cpjm/misc/mccs.html "Mccs") is based on *Mixed Integer Linear Programming*
+3.   [`packup`](http://sat.inesc-id.pt/~mikolas/sw/packup/ "Packup") is based on *Weighted MAX-SAT*
 
 
 All of these solvers are packaged today in Debian, so they can be used as external solvers for compatible
