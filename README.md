@@ -53,6 +53,11 @@ in your path, and then tell your package manager to use it:
 1. for `opam`, use `opam --solver cudf_remote_proxy`
 2. for `apt-get`, use `apt-get --solver cudf_remote_proxy`
 
+### Remarks
+The default version of the utility compresses and decompresses the data before
+transmission, to avoid delays on slow networks. On fast networks, you may
+use `cudf_remote_proxy_plain`
+
 ### References
 
 1. [A modular package manager architecture](http://www.dicosmo.org/Articles/2013-AbateDiCosmoTreinenZacchiroli-Ist.pdf)
