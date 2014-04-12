@@ -40,7 +40,7 @@ or [opam](http://opam.ocamlpro.com).
 On many platforms, though, precompiled version of CUDF solver are not readily available, and on mobile
 platforms the cost of dependency solving may be too high.
 
-As a service to the community, [Irill](http://www.irill.org] is hosting a
+As a service to the community, [Irill](http://www.irill.org) is hosting a
 `remote CUDF solver farm`, that can be seamlessly accessed using the utility
 found in this repository, which is a drop-in replacement for a local solver.
 
@@ -60,7 +60,6 @@ use `cudf_remote_proxy_plain`
 
 ### References
 
-1. [A modular package manager architecture](http://www.dicosmo.org/Articles/2013-AbateDiCosmoTreinenZacchiroli-Ist.pdf)
+1. [A modular package manager architecture](http://www.dicosmo.org/Publications/MPM2012ITS.html) * Information and Software Technology*, 55(2):459 - 474, 2013. Special Section: Component-Based Software Engineering (CBSE), 2011
 
-2. [Dependency solving: A separate concern in component evolution management](http://www.dicosmo.org/Articles/2012-AbateDiCosmoTreinenZacchiroli-Jss.pdf)
-
+2. [Dependency solving: A separate concern in component evolution management](http://www.dicosmo.org/Publications/DepSolversNP2012.html) *Journal of System and Software Science*, 85(10):2228 - 2240, 2012. Automated Software Evolution.
