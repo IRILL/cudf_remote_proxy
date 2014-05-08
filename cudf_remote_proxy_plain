@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh -e
 SERVER=cudf-solvers.irill.org
 if curl -f --data-binary @"$1" -o "$2" http://$SERVER/cudf?criteria="$3";
 then cp "$2" /tmp/sol$$.cudf; exit 0
